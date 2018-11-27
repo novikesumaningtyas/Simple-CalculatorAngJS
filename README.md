@@ -20,6 +20,12 @@ How to use :
 4. Calculate the result - Choose = to calculate the result
 5. Clear to start new calculation - Choose C to start new calculation
 
+** For square root operation
+1. Choose the number you want to find the square root value
+2. Choose √ 
+3. Directly choose '=' to calculate the square root
+
+
 ## Directory Layout
 
 ```
@@ -54,18 +60,18 @@ All the testing for the controller are under tests/spec.js
 Type 'Karma start' on cmd or power shell
 
 ## Contact
-For more information on AngularJS please check out [angularjs.org][angularjs].
-[angularjs]: https://angularjs.org/
-[git]: https://git-scm.com/
-[http-server]: https://github.com/indexzero/http-server
-[jasmine]: https://jasmine.github.io/
-[jdk]: https://wikipedia.org/wiki/Java_Development_Kit
-[jdk-download]: http://www.oracle.com/technetwork/java/javase/downloads
-[karma]: https://karma-runner.github.io/
-[local-app-url]: http://localhost:8000/index.html
-[node]: https://nodejs.org/
-[npm]: https://www.npmjs.org/
-[protractor]: http://www.protractortest.org/
-[selenium]: http://docs.seleniumhq.org/
-[travis]: https://travis-ci.org/
-[travis-docs]: https://docs.travis-ci.com/user/getting-started
+For more information on AngularJS please check out [angularjs.org][angularjs]. <br>
+[angularjs]: https://angularjs.org/ <br>
+[git]: https://git-scm.com/ <br>
+[http-server]: https://github.com/indexzero/http-server <br>
+[jasmine]: https://jasmine.github.io/ <br>
+[jdk]: https://wikipedia.org/wiki/Java_Development_Kit <br>
+[jdk-download]: http://www.oracle.com/technetwork/java/javase/downloads <br>
+[karma]: https://karma-runner.github.io/ <br>
+[local-app-url]: http://localhost:8000/index.html <br>
+[node]: https://nodejs.org/ <br>
+[npm]: https://www.npmjs.org/ <br>
+[protractor]: http://www.protractortest.org/ <br>
+[selenium]: http://docs.seleniumhq.org/ <br>
+[travis]: https://travis-ci.org/ <br>
+[travis-docs]: https://docs.travis-ci.com/user/getting-started 
