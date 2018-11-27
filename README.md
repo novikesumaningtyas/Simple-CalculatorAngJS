@@ -48,7 +48,6 @@ All the testing for the controller are under tests/spec.js
 Type 'Karma start' on cmd or power shell
 
 ## Contact
-
 For more information on AngularJS please check out [angularjs.org][angularjs].
 [angularjs]: https://angularjs.org/
 [git]: https://git-scm.com/
