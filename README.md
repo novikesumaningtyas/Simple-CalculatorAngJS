@@ -57,7 +57,7 @@ package-lock.json     --> Npm specific metadata, including versions of installed
 All the testing for the controller are under tests/spec.js
 
 ### Running Unit Tests
-Type 'Karma start' on cmd or power shell
+Type 'karma start' on cmd or power shell
 
 ## Contact
 For more information on AngularJS please check out [angularjs.org][angularjs]. <br>
