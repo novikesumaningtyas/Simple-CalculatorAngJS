@@ -54,6 +54,7 @@ package-lock.json     --> Npm specific metadata, including versions of installed
 All the testing for the controller are under tests/spec.js
 
 ### Running Unit Tests
+Run 'npm install' for download the dependencies including the mock module,
 Type 'karma start' on cmd or power shell
 
 ## Contact
