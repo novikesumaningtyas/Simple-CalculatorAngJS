@@ -17,12 +17,12 @@ How to use :
 1. Set the first value - Choose any number you want to calculate using calculator
 2. Set the math operator - Choose any operation you want
 3. Set the second value - Choose any number you want to calculate using calculator
-4. Calculate the result - Choose = to calculate the result
-5. Clear to start new calculation - Choose C to start new calculation
+4. Calculate the result - Choose '=' to calculate the result
+5. Clear to start new calculation - Choose 'C' to start new calculation
 
 ** For square root operation
 1. Choose the number you want to find the square root value
-2. Choose √ 
+2. Choose '√' 
 3. Directly choose '=' to calculate the square root
 
 
