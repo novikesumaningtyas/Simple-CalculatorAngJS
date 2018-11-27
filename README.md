@@ -8,6 +8,11 @@ Functions available :
 + add
 - substract
 * multiply
+
+
+
+
+
 / divide
 ^ power of N
 √ square root
