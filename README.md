@@ -1,6 +1,4 @@
-# Using `angular-seed` — the seed for AngularJS apps
-
-Simple Calculator Using AngularJS
+# Simple Calculator Using AngularJS
 
 ## Getting Started
 
@@ -11,8 +9,8 @@ Functions available :
 - substract
 * multiply
 / divide
-^ square by N
-√ square root 
+^ power of N
+√ square root
 
 ## Directory Layout
 
