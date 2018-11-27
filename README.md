@@ -2,20 +2,23 @@
 
 ## Getting Started
 
-Simply run the index.html under app folder (app/index.html) to run the calculator
-Functions available : 
+Simply run or double click the index.html under app folder (app/index.html) to run the calculator
 
-+ add
-- substract
-* multiply
+Math Operation Functions available : 
 
+--> + add <br>
+--> - substract <br>
+--> * multipy <br>
+--> / divide <br>
+--> ^ power of N <br>
+--> √ square root
 
-
-
-
-/ divide
-^ power of N
-√ square root
+How to use :
+1. Set the first value - Choose any number you want to calculate using calculator
+2. Set the math operator - Choose any operation you want
+3. Set the second value - Choose any number you want to calculate using calculator
+4. Calculate the result - Choose = to calculate the result
+5. Clear to start new calculation - Choose C to start new calculation
 
 ## Directory Layout
 
