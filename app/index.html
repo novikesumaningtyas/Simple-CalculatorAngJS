@@ -1,0 +1,53 @@
+<html ng-app="calculatorApp">
+
+<head>
+  <script data-require="angular.js@1.0.7" data-semver="1.0.7" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js"></script>
+  <link rel="stylesheet" href="app.css" />
+  <script src="app.js"></script>
+</head>
+
+  <body>
+    <h1 class="title">Simple AngularJS Calculator</h1>
+    <div ng-controller="CalculatorCtrl">
+      <div class="background ">
+        <p><b class="answer"> {{firstValue}} {{operator}} {{secondValue}}</b><br>
+          <b class="equals"> &nbsp;&nbsp;=   {{calcAnswer}}</b></p>
+
+        <div class="first-rows">
+          <button name="btnClear" class="del-bg btn-style first-child" ng-click='clear()'>C</button>
+          <button name="btnPlus" class="btn-style opera-bg value align operator" ng-click='updateOperation("+")'>+</button>
+          <button name="btnMinus" value="-" class="btn-style opera-bg operator" ng-click='updateOperation("-")'>-</button>
+          <button name="btnDivide" value="/" class="btn-style opera-bg operator" ng-click='updateOperation("/")'>/</button>
+        </div>
+
+        <div class="rows">
+          <button name="btn7" value="7" class="btn-style num-bg num first-child" ng-click='updateOutput(7)'>7</button>
+          <button name="btn8" value="8" class="btn-style num-bg num" ng-click='updateOutput(8)'>8</button>
+          <button name="btn9" value="9" class="btn-style num-bg num" ng-click='updateOutput(9)'>9</button>
+          <button name="btnMultiply" value="*" class="btn-style opera-bg operator" ng-click='updateOperation("*")'>x</button>
+        </div>
+
+        <div class="rows">
+          <button name="btn4" value="4" class="btn-style num-bg num first-child" ng-click='updateOutput(4)'>4</button>
+          <button name="btn5" value="5" class="btn-style num-bg num" ng-click='updateOutput(5)'>5</button>
+          <button name="btn6" value="6" class="btn-style num-bg num" ng-click='updateOutput(6)'>6</button>
+          <button name="btnPower" value="^" class="btn-style opera-bg operator" ng-click='updateOperation("^")'>^</button>
+        </div>
+
+        <div class="rows">
+          <button name="btn1" value="1" class="btn-style num-bg num first-child" ng-click='updateOutput(1)'>1</button>
+          <button name="btn2" value="2" class="btn-style num-bg num" ng-click='updateOutput(2)'>2</button>
+          <button name="btn3" value="3" class="btn-style num-bg num" ng-click='updateOutput(3)'>3</button>
+          <button name="btnRoot" value="√" class="btn-style opera-bg opera-bg fall-back" ng-click='updateOperation("square root")'>&radic;<span style="text-decoration:overline;"></span></button>
+        </div>
+
+        <div class="rows">
+          <button name="btn0" value="0" class="btn-style num-bg num first-child" id="delete" ng-click='updateOutput(0)'>0</button>
+          <button name="btnDecimal" value="." class="btn-style num-bg period fall-back" ng-click='updateOutput(".")'>.</button>
+          <button value="=" id="eqn-bg" class="eqn align" ng-click='finalResult()'>=</button>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
